@@ -1,0 +1,24 @@
+{
+  "name": "@mcrowe/vector2",
+  "version": "0.0.1",
+  "description": "2d vector library for Javascript/Typescript",
+  "author": "Mitch Crowe <code@mitchcrowe.com> (http://www.mitchcrowe.com)",
+  "license": "ISC",
+  "repository": "https://github.com/mcrowe/vector2",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha -u qunit --recursive -r ./node_modules/ts-node/register test/*",
+    "build": "./node_modules/typescript/bin/tsc"
+  },
+  "main": "dist/index.js",
+  "typings": "lib/index",
+  "files": [
+    "lib/"
+  ],
+  "devDependencies": {
+    "@types/mocha": "^2.2.39",
+    "@types/node": "^7.0.12",
+    "mocha": "^3.2.0",
+    "ts-node": "^2.1.0",
+    "typescript": "^2.1.4"
+  }
+}

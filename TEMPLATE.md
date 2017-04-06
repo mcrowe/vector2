@@ -1,0 +1,3 @@
+- Update README.md
+- Update package.json
+- Remove TEMPLATE.md
