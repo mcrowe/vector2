@@ -1,6 +1,6 @@
 {
   "name": "@mcrowe/vector2",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "2d vector library for Javascript/Typescript",
   "author": "Mitch Crowe <code@mitchcrowe.com> (http://www.mitchcrowe.com)",
   "license": "ISC",
